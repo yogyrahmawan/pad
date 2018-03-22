@@ -12,6 +12,6 @@ import (
 )
 
 func main() {
-	fmt.Println(pad.Right("test", 20, "*"))
+	fmt.Println(pad.Right("test","*", 20))
 }
 ```
